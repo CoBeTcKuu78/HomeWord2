@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        //задание 1
         byte a = 12;
         System.out.println(a);
         short b = 135;
@@ -18,12 +19,15 @@ public class Main {
         boolean  isAdult = age >= 18;
         System.out.println(isAdult);
 
-
+        //задание 2
         float boxer1Weight = 78.2f;
         float boxer2Weight = 82.7f;
         float z = boxer1Weight + boxer2Weight;
+        float zz = boxer2Weight - boxer1Weight;
         System.out.println("общий вес боксеров " + z + " кг");
+        System.out.println("разница в весе боксеров " + zz + " кг");
 
+        //задание 3
         int banan = 80;
         int milk = 105;
         int iceCream = 100;
@@ -31,6 +35,7 @@ public class Main {
         int breakfast = (banan * 5) + (milk * 2) + (iceCream * 2) + (egg + 4);
         System.out.println("общий вес завтрака " + breakfast * 0.001 + " кг");
 
+        //задание 4
         int result = 7;
         float weightLossMin = 0.25f;
         float weightLossMax = 0.5f;
@@ -41,6 +46,8 @@ public class Main {
         System.out.println("Если спортсмен будет терять 0.25 кг в день, то потребуется " + daysMax + " дней");
         System.out.println("Если спортсмен будет терять 0.5 кг в день, то потребуется " + daysMin + " дней");
         System.out.println("Если спортсмен будет терять 0.375 кг в день, то потребуется " + daysMean + " дней");
+
+        //задиние 5
 
 
     }
