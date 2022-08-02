@@ -24,5 +24,11 @@ public class Main {
         float z = boxer1Weight + boxer2Weight;
         System.out.println("общий вес боксеров " + z + " кг");
 
+        int banan = 80;
+        int milk = 105;
+        int iceCream = 100;
+        int egg = 70;
+        int breakfast = (banan * 5) + (milk * 2) + (iceCream * 2) + (egg + 4);
+        System.out.println("общий вес завтрака " + breakfast * 0.001 + " кг");
     }
 }
