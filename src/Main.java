@@ -47,7 +47,19 @@ public class Main {
         System.out.println("Если спортсмен будет терять 0.5 кг в день, то потребуется " + daysMin + " дней");
         System.out.println("Если спортсмен будет терять 0.375 кг в день, то потребуется " + daysMean + " дней");
 
-        //задиние 5
+        //задание 5
+        var masha = 67_760;
+        var denis = 83_690;
+        var kristina = 76_230;
+        var mashaHight = masha + (masha * 0.1);
+        var denisHight = denis + (denis * 0.1);
+        var kristinaHight = kristina + (kristina * 0.1);
+        var mashaDiff = mashaHight - masha;
+        var denisDiff = denisHight - denis;
+        var kristinaDiff = kristinaHight - kristina;
+        System.out.println("После увеличения ЗП на 10%, Маша будет получать " + mashaHight + " рублей в месяц. Её ЗП увеличится на " + mashaDiff + " рублей в месяц.");
+        System.out.println("После увеличения ЗП на 10%, Денис будет получать " + denisHight + " рублей в месяц. Её ЗП увеличится на " + denisDiff + " рублей в месяц.");
+        System.out.println("После увеличения ЗП на 10%, Кристина будет получать " + kristinaHight + " рублей в месяц. Её ЗП увеличится на " + kristinaDiff + " рублей в месяц.");
 
 
     }
