@@ -30,5 +30,18 @@ public class Main {
         int egg = 70;
         int breakfast = (banan * 5) + (milk * 2) + (iceCream * 2) + (egg + 4);
         System.out.println("общий вес завтрака " + breakfast * 0.001 + " кг");
+
+        int result = 7;
+        float weightLossMin = 0.25f;
+        float weightLossMax = 0.5f;
+        float weightLossMean = (weightLossMin + weightLossMax) / 2;
+        float daysMax = result / weightLossMin;
+        float daysMin = result / weightLossMax;
+        float daysMean = result / weightLossMean;
+        System.out.println("Если спортсмен будет терять 0.25 кг в день, то потребуется " + daysMax + " дней");
+        System.out.println("Если спортсмен будет терять 0.5 кг в день, то потребуется " + daysMin + " дней");
+        System.out.println("Если спортсмен будет терять 0.375 кг в день, то потребуется " + daysMean + " дней");
+
+
     }
 }
